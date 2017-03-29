@@ -528,18 +528,18 @@
 			}
 		},
 		{
-			"file": "scripts/main.js",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "css/main.css",
 			"settings":
 			{
 				"buffer_size": 65,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "scripts/main.js",
+			"settings":
+			{
+				"buffer_size": 0,
 				"line_ending": "Windows"
 			}
 		}
@@ -582,17 +582,17 @@
 	},
 	"file_history":
 	[
-		"/E/Github/FCC-Personal-Portfolio-Webpage/FCC-Personal-Portfolio-Webpage.sublime-workspace",
-		"/E/Github/FCC-Personal-Portfolio-Webpage/FCC-Personal-Portfolio-Webpage.sublime-project",
 		"/E/Github/FCC-Personal-Portfolio-Webpage/css/main.css",
 		"/E/Github/FCC-Personal-Portfolio-Webpage/scripts/main.js",
+		"/E/SourceTree/Repositories/tg_frontend_react/dev/index.jsx",
 		"/E/Github/FCC-Personal-Portfolio-Webpage/index.html",
+		"/E/Github/FCC-Personal-Portfolio-Webpage/FCC-Personal-Portfolio-Webpage.sublime-workspace",
+		"/E/Github/FCC-Personal-Portfolio-Webpage/FCC-Personal-Portfolio-Webpage.sublime-project",
 		"/E/Github/FCC-Technical-Documentation-Page/css/main.css",
 		"/E/Github/FCC-Technical-Documentation-Page/index.html",
 		"/E/SourceTree/Repositories/tg_frontend_react/dev/components/Chart.jsx",
 		"/E/SourceTree/Repositories/tg_frontend_react/dev/components/DatabaseCard.jsx",
 		"/E/SourceTree/Repositories/tg_frontend_react/dev/components/Database.jsx",
-		"/E/SourceTree/Repositories/tg_frontend_react/dev/index.jsx",
 		"/E/SourceTree/Repositories/tg_frontend_react/dev/components/Header.jsx",
 		"/E/SourceTree/Repositories/tg_frontend_react/index.html",
 		"/E/SourceTree/Repositories/tg_frontend_react/css/style.css",
@@ -785,7 +785,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -801,8 +801,8 @@
 						"selection":
 						[
 							[
-								193,
-								193
+								0,
+								0
 							]
 						],
 						"settings":
@@ -815,39 +815,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "scripts/main.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
 					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 1,
 					"file": "css/main.css",
 					"semi_transient": false,
 					"settings":
@@ -866,6 +838,34 @@
 						"settings":
 						{
 							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "scripts/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -930,12 +930,12 @@
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 500.0,
 		"last_filter": "",
 		"selected_items":
 		[
 		],
-		"width": 0.0
+		"width": 380.0
 	},
 	"select_symbol":
 	{
