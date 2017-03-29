@@ -2,3 +2,13 @@ body{
 	font-family: 'open-sans', sans-serif;
 	font-weight: 300;
 }
+
+#welcome-section{
+	height: 100vh;
+}
+
+nav{
+	display: flex;
+	position: fixed;
+	top: 0;
+}
