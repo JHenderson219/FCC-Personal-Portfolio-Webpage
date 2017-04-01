@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"alig",
+				"align-items"
+			],
+			[
+				"flex",
+				"flex-direction"
+			],
+			[
+				"fle",
+				"flex-start"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
 				"Butto",
 				"ButtonGroup"
 			],
@@ -24,24 +40,12 @@
 				"text-decoration"
 			],
 			[
-				"fle",
-				"flex-flow"
-			],
-			[
 				"in",
 				"in"
 			],
 			[
-				"max",
-				"max-width"
-			],
-			[
 				"backg",
 				"background-color"
-			],
-			[
-				"flex",
-				"flex-end"
 			],
 			[
 				"font-st",
@@ -98,10 +102,6 @@
 			[
 				"award",
 				"award-card"
-			],
-			[
-				"alig",
-				"align-content"
 			],
 			[
 				"inline",
@@ -523,7 +523,8 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 629,
+				"buffer_size": 1540,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
@@ -531,7 +532,8 @@
 			"file": "css/main.css",
 			"settings":
 			{
-				"buffer_size": 65,
+				"buffer_size": 938,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
@@ -794,15 +796,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 629,
+						"buffer_size": 1540,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								524,
+								524
 							]
 						],
 						"settings":
@@ -815,7 +817,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -824,15 +826,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 65,
+						"buffer_size": 938,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								611,
+								611
 							]
 						],
 						"settings":
@@ -871,7 +873,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
