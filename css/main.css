@@ -64,11 +64,35 @@ section{
 	flex-flow: row wrap;
 }
 .project-tile{
+	display: flex;
+	flex-flow: column;
+	align-items: center;
 	width: 28vw;
 	height: 50vh;
 	box-shadow: 0px 0px 10px #3a3a3a;
 	margin: 1vw;
 	max-width: 300px;
+}
+.project-img{
+	width: 24vw;
+	max-width: 80%;
+}
+.project-title{
+	margin: 1vh 1vw 1vh 1vw;
+}
+.project-info{
+	width: 80%;
+	font-size: 0.9em;
+	margin: 1vh 1vw 1vh 1vw;
+}
+.project-tile a{
+	text-decoration: none;
+	background-color: #e5e5e5; ;
+
+	color: black;
+	background-color: #e5e5e5;
+	padding: 0.4em;
+	margin: 0.5vh 1vw 0.5vh 1vw;
 }
 #contact{
 	flex-flow: row wrap;
