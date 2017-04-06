@@ -13,18 +13,21 @@ function generateProjectTiles(projObj){
 }
 
 /* Thanks to Glenn Smith on CodePen (https://codepen.io/g13nn/pen/eHGEF) for the jQuery for the hamburger menu */
-$( ".cross" ).hide();
+//$(".menu").hide();
+//$( ".cross" ).hide();
 
 $( ".hamburger" ).click(function() {
-	$( ".menu" ).slideToggle( "slow", function() {
+		console.log(document.getElementsByClassName("menu")[0].style.display)
+		document.getElementsByClassName("menu")[0].style.display = "flex";
+		document.getElementsByClassName("menu")[0].style.position = "absolute";
+		document.getElementsByClassName("menu-link")[0].style.display = "flex";
 		$( ".hamburger" ).hide();
-		$( ".cross" ).show();
-	});
+		$( ".cross" )[0].style.display = "flex";
+
 });
 
 $( ".cross" ).click(function() {
-$( ".menu" ).slideToggle( "slow", function() {
-$( ".cross" ).hide();
-$( ".hamburger" ).show();
-});
+		$( ".cross" )[0].style.display= "none";
+		document.getElementsByClassName("menu")[0].style.display = "none";
+		$( ".hamburger" )[0].style.display = "flex";
 });
