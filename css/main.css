@@ -44,21 +44,41 @@ nav{
 	justify-content: center;
 	font-size: 1.5em;
 }
-
+.menu{
+	display: none
+}
+.hamburger{
+	display: none;
+}
+.cross{
+	display: none;
+}
 
 section{
 	display: flex;
-	flex-flow: column wrap;
+	flex-flow: column nowrap;
 	align-items: center;
 	width: 90vw;
 	margin: 5vh 5vw 5vh 5vw;
 }
+
+#welcome-section p{
+	font-size: 2em;
+	flex-shrink: 0.5;
+}
+#about h1{
+	font-size: 2em;
+}
+#about h2{
+	font-size: 2em;
+}
+#about p{
+	font-size: 1.5em;
+}
 #projects{
 	flex-flow: column nowrap;
 }
-#projects h1{
 
-}
 #project-container{
 	display: flex;
 	flex-flow: row wrap;
@@ -88,7 +108,7 @@ section{
 .project-tile a{
 	text-decoration: none;
 	background-color: #e5e5e5; ;
-
+	box-shadow: 0px 0px 5px #3a3a3a;
 	color: black;
 	background-color: #e5e5e5;
 	padding: 0.4em;
@@ -105,6 +125,31 @@ section{
 }
 
 @media (max-width: 840px){
+	#navbar a{
+		display: none;
+	}
+	#navbar{
+		justify-content: space-between;
+		align-items: center
+	}
+	.menu{
+	display: flex;
+
+	}
+	.hamburger{
+	display: flex;
+	padding: 5vw;
+	margin: 5vw;
+	}
+	.cross{
+	display: flex;
+	padding: 5vw;
+	margin: 5vw;
+	}
+	#welcome-section{
+		font-size: 1em;
+		justify-content: center;
+	}
 	#project-container{
 	flex-flow: column;
 	}
@@ -112,3 +157,68 @@ section{
 		width: 80vw;
 	}
 }
+
+
+/* Thanks to Glenn Smith on CodePen (https://codepen.io/g13nn/pen/eHGEF) for the CSS for this hamburger menu */
+
+
+.hamburger{
+  background:none;
+
+  top:0;
+  right:0;
+  line-height:45px;
+  padding:5px 15px 0px 15px;
+  color:#999;
+  border:0;
+  font-size:1.4em;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+}
+.cross{
+  background:none;
+
+  top:0px;
+  right:0;
+  padding:7px 15px 0px 15px;
+  color:#999;
+  border:0;
+  font-size:3em;
+  line-height:65px;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+}
+.menu{
+	display: flex;
+	font-size:0.8em; 
+	width:100%; 
+	background:#f1f1f1;  
+	position:absolute; 
+	text-align:center; 
+	font-size:12px;
+}
+.menu ul {
+	margin: 0; 
+	padding: 0; 
+	list-style-type: none; 
+	list-style-image: none;
+}
+.menu li {
+	display: block;   
+	padding:15px 0 15px 0; 
+	border-bottom:#dddddd 1px solid;
+}
+
+.menu li:hover {display: block;    
+	background:#ffffff; 
+	padding:15px 0 15px 0; 
+	border-bottom:#dddddd 1px solid;}
+.menu ul li a {text-decoration:none;  
+	margin: 0px; 
+	color:#666;}
+.menu ul li a:hover {
+ color: #666; text-decoration:none;}
+.menu a{text-decoration:none; color:#666;}
+.menu a:hover{text-decoration:none; color:#666;}

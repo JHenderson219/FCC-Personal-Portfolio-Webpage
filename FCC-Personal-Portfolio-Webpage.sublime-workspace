@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"align",
+				"align-self"
+			],
+			[
+				"space",
+				"space-between"
+			],
+			[
 				"max",
 				"max-width"
 			],
@@ -34,10 +42,6 @@
 			[
 				"Form",
 				"FormGroup"
-			],
-			[
-				"align",
-				"align-items"
 			],
 			[
 				"text",
@@ -510,10 +514,6 @@
 			[
 				"comp",
 				"computerSide"
-			],
-			[
-				"sec",
-				"sectorReport"
 			]
 		]
 	},
@@ -523,19 +523,16 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 2297,
+				"buffer_size": 3162,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "body{\n\tfont-family: 'Pavanam', sans-serif;\n\tfont-weight: 300;\n}\n\n#welcome-section{\n\theight: 100vh;\n\tdisplay: flex;\n\tflex-flow: column wrap;\n\talign-items: center;\n\tjustify-content: center;\n\tbackground-color: #e5e5e5;\n}\n\nnav{\n\tdisplay: flex;\n\tposition: fixed;\n\ttop: 0;\n\tleft: 0;\n\theight: 10vh;\n\twidth: 100vw;\n\tbackground-color: #e5e5e5;\n\tbox-shadow: 0px 2px 5px #3a3a3a;\n\tjustify-content: center;\n\talign-items: center;\n}\n\n#navbar p{\n\tfont-size: 1.5em;\n\tmargin: 1vw;\n}\n#navbar a{\n\ttext-decoration: none;\n\tcolor: inherit;\n\tbackground-color: #f2f2f2;\n\twidth: 5em;\n\tpadding: 0.5em;\n\tmargin: 1vh 1vw 1vh 1vw;\n\theight: 4vh;\n\tbox-shadow: 0px 0px 5px #3a3a3a;\n\tdisplay: flex;\n\tflex-direction: column;\n\talign-items: center;\n\tjustify-content: center;\n\tfont-size: 1.5em;\n}\n\n\nsection{\n\tdisplay: flex;\n\tflex-flow: column wrap;\n\talign-items: center;\n\twidth: 90vw;\n\tmargin: 5vh 5vw 5vh 5vw;\n}\n#projects{\n\tflex-flow: column nowrap;\n}\n#projects h1{\n\n}\n#project-container{\n\tdisplay: flex;\n\tflex-flow: row nowrap;\n}\n.project-tile{\n\twidth: 29vw;\n\theight: 50vh;\n\tbox-shadow: 0px 0px 10px #3a3a3a;\n\tmargin: 1vw;\n}\n\n@media (max-width: 840px){\n\t#project-container{\n\tflex-flow: column;\n\t}\n}",
 			"file": "css/main.css",
-			"file_size": 1241,
-			"file_write_time": 131355567162108929,
 			"settings":
 			{
-				"buffer_size": 1163,
+				"buffer_size": 1758,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -544,7 +541,8 @@
 			"file": "scripts/main.js",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 351,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		}
@@ -799,15 +797,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2297,
+						"buffer_size": 3162,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								58,
-								58
+								762,
+								763
 							]
 						],
 						"settings":
@@ -817,7 +815,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 45.0,
+						"translation.y": 315.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -829,15 +827,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1163,
+						"buffer_size": 1758,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								761,
-								761
+								1435,
+								1402
 							]
 						],
 						"settings":
@@ -845,7 +843,7 @@
 							"syntax": "Packages/CSS/CSS.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 450.0,
+						"translation.y": 810.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -857,15 +855,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 351,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								344,
+								344
 							]
 						],
 						"settings":
